@@ -1,0 +1,338 @@
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* 1 экран */
+
+.header {
+    background-image: url(https://avatars.mds.yandex.net/i?id=bd3753a377dde155a468ce77998494e2d0b15f15-9847129-images-thumbs&n=13)  ;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding-bottom: 105px;
+}
+
+.menu {
+    margin-top:8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+
+.offer{
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+
+.offer__text {
+    font-size: 16px;
+    margin-top:15px;
+    color: #dcd0ff;
+    width: 400px;
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease; /* плавная анимация*/
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}  /* анимация при наведении на иконки*/
+
+/*Осн.стили для всех блоков*/
+
+body {*/
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.title {
+	padding-top: 100px;  /*отступ сверху*/
+	padding-bottom: 70px ;
+}
+
+.title_main {
+	font-size: 33px;
+	text-align: center;
+}
+
+.title_text {
+	font-size: 20px;
+    text-align: center;
+}
+p {
+	font-size: 20px;
+   
+}
+
+
+/* 1 экран */
+
+.header {
+
+    background-image: url(https://www.fonstola.ru/images/201302/fonstola.ru_89547.jpg)  ;
+	background-repeat: no-repeat;
+	background-size: 100% ; 
+	padding-bottom: 105px;
+}
+
+.logo {
+    margin-top:8px;
+}
+
+.menu {
+    margin-top:8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+
+.offer{
+	margin-top: 117px;
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+    color: #dcd0ff;
+    text-shadow: black 2px 3px 4px;
+
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #dcd0ff;
+    text-shadow: black 2px 3px 4px;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top:15px;
+    color: #dcd0ff;
+    width: 400px;
+    text-shadow: black 2px 3px 4px;
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease; /* плавная анимация*/
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}  /* анимация при наведении на иконки*/
+
+.ipad{
+	display: block;
+	margin:60px auto 0;
+}
+
+/* 2 экран*/
+
+.feature {
+    margin-bottom: 65px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000
+}
+
+.feature__text {
+    color: #898989
+}
+
+section {
+   font-family: 'Raleway', sans-serif; 
+}
+
+.card-text {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.feedback {
+
+    background:#000;
+    color: #fff;
+}
+
+.blue{
+
+    color:#95d9fb;
+}
+
+.form_input{
+    background:#fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif; 
+    border-radius: 5px;
+    width: 580px;
+    padding: 15px 0;
+    margin-right: 21px;
+    border:0;
+    outline: none;
+
+}
+.title__text {
+    text-align: center;
+}
+
+.button {
+  font-family: 'PT Sans', sans-serif; 
+  background:#e0413b;
+  color: #000;
+  text-transform:  uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 126px;
+  border: 0;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.footer {
+    background: #000;
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+}
+
+
+.footer {
+
+background: #000;
+
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .button {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
