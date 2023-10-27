@@ -202,25 +202,7 @@ p {
 .feature__icon {
     font-size: 50px;
     margin-right: 37px;
-    color: #000;
-    fill: yellow;
-}
-
-.icon_footer {
-    font-size: 50px;
-    margin-right: 37px;
-    color: #000;
-    
-}
-
-.icon_footer:hover {
-    fill:#FFF;
-    transition: all 0.3s ease;
-
-}
-
-#vk {
-   fill: #6491DD; 
+    color: #000
 }
 
 .feature__text {
@@ -238,10 +220,8 @@ section {
 }
 
 .feedback {
-    background-image: url(https://www.fonstola.ru/images/201302/fonstola.ru_89547.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% ; 
-    padding-bottom: 105px;    
+
+    background:#000;
     color: #fff;
 }
 
@@ -281,6 +261,20 @@ section {
 }
 
 .footer {
+    background: #000;
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+}
+
+
+.footer {
 
 background: #000;
 
@@ -295,6 +289,8 @@ background: #000;
     margin: 0 auto;
     text-align: center;
 }
+
+
 
 @media screen and (max-width: 992px) {
     .logo {
@@ -339,14 +335,5 @@ background: #000;
         text-align: center;
         margin-bottom:10px;
     }
-}
-
-#cards{
-    background-image: url(https://www.fonstola.ru/images/201302/fonstola.ru_89547.jpg);
-}
-
-.planet_img {
-    width: 286px;
-    height: 284px;
 }
 
