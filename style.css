@@ -78,26 +78,6 @@ body {*/
     font-family: 'PT Sans', sans-serif;
 }
 
-ul, li {
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-
-h1, h2, h3, h4, h5 {
-    font-weight: 700;
-    color: #000
-}
-
-h3 {
-    font-weight: 400;
-}
-
-h2 {
-    text-align: center;
-}
-
-
 .title {
     padding-top: 100px;  /*отступ сверху*/
     padding-bottom: 70px ;
@@ -202,7 +182,25 @@ p {
 .feature__icon {
     font-size: 50px;
     margin-right: 37px;
-    color: #000
+    color: #000;
+    fill: yellow;
+}
+
+.icon_footer {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+    
+}
+
+.icon_footer:hover {
+    fill:#FFF;
+    transition: all 0.3s ease;
+
+}
+
+#vk {
+   fill: #6491DD; 
 }
 
 .feature__text {
@@ -219,11 +217,13 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.feedback {
-
-    background:#000;
+/*.feedback {
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding-bottom: 105px;    
     color: #fff;
-}
+}*/
 
 .blue{
 
@@ -261,23 +261,8 @@ section {
 }
 
 .footer {
-    background: #000;
-}
-
-.footer_info {
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-    padding: 50px 0 94px;
-    width: 184px;
-    margin: 0 auto;
-}
-
-
-.footer {
-
-background: #000;
-
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+     /*background: #000;*/
 }
 
 .footer_info {
@@ -289,8 +274,6 @@ background: #000;
     margin: 0 auto;
     text-align: center;
 }
-
-
 
 @media screen and (max-width: 992px) {
     .logo {
@@ -337,3 +320,24 @@ background: #000;
     }
 }
 
+#cards{
+    background-image: url(https://www.fonstola.ru/images/201302/fonstola.ru_89547.jpg);
+}
+
+.planet_img {
+    width: 286px;
+    height: 284px;
+}
+
+/*.feature__title {
+    text-align: center;
+}*/
+
+.feature__text {
+    font-size: 15px;
+}
+
+#feedback {
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+     /*background: #000;*/
+}
