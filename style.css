@@ -26,6 +26,12 @@ h2 {
     padding-bottom: 105px;
 }
 
+.nav-link{
+    text-decoration-color: dark;
+}
+
+
+
 .menu {
     margin-top:8px;
 }
@@ -50,11 +56,20 @@ h2 {
 }
 
 
-.offer__text {
+.offer__text0d1624{
     font-size: 16px;
     margin-top:15px;
-    color: #dcd0ff;
+    color: #dbdbdb;
     width: 400px;
+}
+
+.carousel-caption{
+    carousel-indicator-width: 10px;
+    carousel-indicator-height: 1px;
+    /*carousel-control-width: 15%;*/
+    /*carousel-control-opacity: .5;*/
+    /*carousel-control-hover-opacity: .9;*/
+    /*carousel-control-transition:opacity .15s ease;*/
 }
 
 .icons__item {
@@ -153,6 +168,10 @@ p {
     text-shadow: black 2px 3px 4px;
 }
 
+.card{
+    background-color: #080611;
+}
+
 .icons__item {
     margin-right:30px;
 }
@@ -200,11 +219,11 @@ p {
 }
 
 #vk {
-   fill: #6491DD; 
+   fill: #F5F5F5; 
 }
 
 .feature__title {
-    color: #cddaec;
+    color: #e8e8e8;
 }
 
 
@@ -232,7 +251,7 @@ section {
 
 .blue{
 
-    color:#95d9fb;
+    color:#F5F5F5;
 }
 
 .form_input{
@@ -255,6 +274,7 @@ section {
   font-family: 'PT Sans', sans-serif; 
   background:#e0413b;
   color: #000;
+  background-color: #dcf847;
   text-transform:  uppercase;
   font-size: 16px;
   font-weight: 700;
