@@ -20,7 +20,7 @@ h2 {
 /* 1 экран */
 
 .header {
-    background-image: url(https://avatars.mds.yandex.net/i?id=bd3753a377dde155a468ce77998494e2d0b15f15-9847129-images-thumbs&n=13)  ;
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg)  ;
     background-repeat: no-repeat;
     background-size: 100% ; 
     padding-bottom: 105px;
@@ -102,7 +102,7 @@ p {
 
 .header {
 
-    background-image: url(https://www.fonstola.ru/images/201302/fonstola.ru_89547.jpg)  ;
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg)  ;
     background-repeat: no-repeat;
     background-size: 100% ; 
     padding-bottom: 105px;
@@ -133,7 +133,7 @@ p {
 .offer__title {
     font-size:32px;
     margin-bottom: 15px;
-    color: #86a5d1;
+    color: #F5F5F5;
     text-shadow: black 2px 3px 4px;
 
 }
@@ -141,14 +141,14 @@ p {
 .offer__intro {
     font-size: 20px;
     line-height: 1.3em;
-    color: #86a5d1;
+    color: #F5F5F5;
     text-shadow: black 2px 3px 4px;
 }
 
 .offer__text {
     font-size: 16px;
     margin-top:15px;
-    color: #86a5d1;
+    color: #F5F5F5;
     width: 400px;
     text-shadow: black 2px 3px 4px;
 }
@@ -203,8 +203,13 @@ p {
    fill: #6491DD; 
 }
 
+.feature__title {
+    color: #cddaec;
+}
+
+
 .feature__text {
-    color: #898989
+    color: #F5F5F5;
 }
 
 section {
@@ -321,7 +326,7 @@ section {
 }
 
 #cards{
-    background-image: url(https://www.fonstola.ru/images/201302/fonstola.ru_89547.jpg);
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
 }
 
 .planet_img {
@@ -337,7 +342,15 @@ section {
     font-size: 15px;
 }
 
+
+
+#feedback1 {
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+     /*background: #000;*/
+}
 #feedback {
     background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
      /*background: #000;*/
 }
+
+c
