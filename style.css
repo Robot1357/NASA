@@ -4,7 +4,7 @@ ul, li {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6, {
     font-weight: 700;
     color: #000
 }
@@ -61,6 +61,10 @@ h2 {
     margin-top:15px;
     color: #dbdbdb;
     width: 400px;
+}
+
+.IDofMENU{
+    color: ;
 }
 
 .carousel-caption{
@@ -349,6 +353,11 @@ section {
     background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
 }
 
+#cards1{
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+}
+
+
 .planet_img {
     width: 286px;
     height: 284px;
@@ -368,6 +377,11 @@ section {
     background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
      /*background: #000;*/
 }
+
+.title_main2{
+    color: #e8e8e8 ;
+}
+
 #feedback {
     background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
      /*background: #000;*/
