@@ -26,11 +26,13 @@ h2 {
     padding-bottom: 105px;
 }
 
-.nav-link{
-    text-decoration-color: dark;
+.navbar {
+    background-color: #000;
 }
 
-
+.nav-link{
+    text-decoration-color: white;
+}
 
 .menu {
     margin-top:8px;
