@@ -48,7 +48,7 @@ h2 {
     color: #000;
 }
 
-.offer{
+.offer, .carousel{
     margin-top: 117px;
 }
 
@@ -69,13 +69,13 @@ h2 {
     color: ;
 }
 
-.carousel-caption{
+ .carousel-caption{
     carousel-indicator-width: 10px;
-    carousel-indicator-height: 1px;
-    /*carousel-control-width: 15%;*/
-    /*carousel-control-opacity: .5;*/
-    /*carousel-control-hover-opacity: .9;*/
-    /*carousel-control-transition:opacity .15s ease;*/
+    carousel-indicator-height: 10px;
+    carousel-control-width: 15px;
+    carousel-control-opacity: .5;
+    carousel-control-hover-opacity: .9;
+    carousel-control-transition:opacity .15s ease;
 }
 
 .icons__item {
