@@ -5,8 +5,8 @@ ul, li {
 }
 
 h1, h2, h3, h4, h5, h6, {
-    font-weight: 700;
-    color: #000
+    font-weight: 800;
+    color: #F5F5F5
 }
 
 h3 {
@@ -31,7 +31,7 @@ h2 {
 }
 
 .nav-link{
-    text-decoration-color: white;
+    text-decoration-color: darck;
 }
 
 .menu {
@@ -59,10 +59,10 @@ h2 {
 
 
 .offer__text0d1624{
-    font-size: 16px;
-    margin-top:15px;
+    font-size: 20px;
+    margin-top:px;
     color: #dbdbdb;
-    width: 400px;
+    width: 500px;
 }
 
 .IDofMENU{
@@ -77,6 +77,11 @@ h2 {
     carousel-control-hover-opacity: .9;
     carousel-control-transition:opacity .15s ease;
 }
+
+.carousel-caption, h5{
+    color: F5F5F5 ;
+}
+
 
 .icons__item {
     margin-right:30px;
