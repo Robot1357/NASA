@@ -1,3 +1,7 @@
+body {
+    background-color: #000;
+}
+
 ul, li {
     display: block;
     padding: 0;
@@ -62,7 +66,7 @@ h2 {
     font-size: 20px;
     margin-top:px;
     color: #dbdbdb;
-    width: 500px;
+    width: 100%;
 }
 
 .IDofMENU{
@@ -266,17 +270,17 @@ section {
 }
 
 .form_input{
-    background:#fff;
+    background: #fff;
     font-size: 16px;
     font-family: 'PT Sans', sans-serif; 
     border-radius: 5px;
-    width: 580px;
+    width: 100%;
     padding: 15px 0;
     margin-right: 21px;
     border:0;
     outline: none;
-
 }
+
 .title__text {
     text-align: center;
 }
@@ -394,4 +398,12 @@ section {
      /*background: #000;*/
 }
 
-c
+#star_icon_left {
+    display: block;
+/*    left: 5%;*/
+}
+
+#star_icon_right {
+    display: block;
+/*    margin-right: 50%;*/
+}
