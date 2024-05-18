@@ -27,4 +27,8 @@
       padding: 15px 0;
       cursor: pointer;
     }
+
+    .feature {
+        margin-bottom: 15px;
+    }    
 }
