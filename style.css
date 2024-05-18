@@ -24,7 +24,7 @@ h2 {
 /* 1 экран */
 
 .header {
-    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg)  ;
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
     background-repeat: no-repeat;
     background-size: 100% ; 
     padding-bottom: 105px;
@@ -109,7 +109,7 @@ body {*/
 }
 
 .title {
-    padding-top: 100px;  /*отступ сверху*/
+    padding-top: 50px;  /*отступ сверху*/
     padding-bottom: 70px ;
 }
 
@@ -230,7 +230,6 @@ p {
 .icon_footer:hover {
     fill:#FFF;
     transition: all 0.3s ease;
-
 }
 
 #vk {
@@ -265,7 +264,6 @@ section {
 }*/
 
 .blue{
-
     color:#F5F5F5;
 }
 
@@ -274,7 +272,7 @@ section {
     font-size: 16px;
     font-family: 'PT Sans', sans-serif; 
     border-radius: 5px;
-    width: 100%;
+    width: 40%;
     padding: 15px 0;
     margin-right: 21px;
     border:0;
@@ -294,15 +292,16 @@ section {
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
-  width: 126px;
+  width: 30%;
   border: 0;
   padding: 15px 0;
   cursor: pointer;
 }
 
 .footer {
-    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+/*    background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);*/
      /*background: #000;*/
+     background-color: black;
 }
 
 .footer_info {
@@ -344,19 +343,6 @@ section {
     }
     .title__text {
         width: auto;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .ipad {
-        width: 100%;
-    }
-    .menu {
-        flex-direction: column;
-    }
-    .menu__item {
-        text-align: center;
-        margin-bottom:10px;
     }
 }
 

@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+    body {
+        background-image: url(https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-20.jpg);
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+
+    .offer{
+        margin-top: 30px;
+    }
+
+    .carousel {
+        margin-top: 30px;
+    }
+
+    .button {
+      font-family: 'PT Sans', sans-serif; 
+      background:#e0413b;
+      color: #000;
+      background-color: #dcf847;
+      text-transform:  uppercase;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 5px;
+      width: 126px;
+      border: 0;
+      padding: 15px 0;
+      cursor: pointer;
+    }
+}
